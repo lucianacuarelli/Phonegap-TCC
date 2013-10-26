@@ -1,0 +1,132 @@
+@media screen and (min-width: 601px) {
+
+
+body{
+    background-color: #330033;
+    }
+
+
+#menuTelaCategoria1 { 
+       width: 30%;
+       height: 100%;
+	   float: left;
+	   margin-left:3%;
+	   margin-right: 2%;
+	   }
+	   
+#menuTelaCategoria2 { 
+       width: 30%;
+       height: 100%;
+	   float: left;
+	   margin-right: 2%;
+	   }
+	   
+#menuTelaCategoria3 { 
+       width: 30%;
+       height: 100%;
+	   float: left;
+	   }
+
+
+a {
+  text-decoration: none;
+  }
+
+
+
+img {
+     width: 90%;
+     margin-top: 50%;
+     } 
+
+}
+	 
+
+
+/* Tablets em formato retrato */
+
+@media screen and (max-width: 600px) {
+
+
+body{
+    background-color: #330033;
+    }
+
+
+#menuTelaCategoria1 { 
+       width: 100%;
+       height: 30%;
+	   margin-bottom: 2%;
+	   }
+	   
+#menuTelaCategoria2 { 
+       width: 100%;
+       height: 30%;
+	   float: left;
+	   margin-bottom: 2%;
+	   
+	   }
+	   
+#menuTelaCategoria3 { 
+       width: 100%;
+       height: 30%;
+	   float: left;
+	   margin-bottom: 2%;
+	   }
+
+
+a {
+  text-decoration: none;
+  }
+
+
+img {
+     width: 60%;
+     } 
+
+}
+
+
+/* Smartphones em formato retrato e paisagem */ 
+
+
+@media screen and (max-width: 320px) {
+
+
+body{
+    background-color: #330033;
+    }
+
+
+#menuTelaCategoria1 { 
+       width: 100%;
+       height: 30%;
+	   margin-bottom: 2%;
+	   }
+	   
+#menuTelaCategoria2 { 
+       width: 100%;
+       height: 30%;
+	   float: left;
+	   margin-bottom: 2%;
+	   
+	   }
+	   
+#menuTelaCategoria3 { 
+       width: 100%;
+       height: 30%;
+	   float: left;
+	   }
+
+
+a {
+  text-decoration: none;
+  }
+
+
+img {
+     width: 100%;
+	 margin-top:10%;
+     } 
+
+}

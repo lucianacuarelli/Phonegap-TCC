@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<All>
+
+<task>
+<question>Where is Paris?</question>
+<option>France</option>
+<option>Belgium</option>
+<option>Norway</option>
+</task>
+
+<task>
+<question>Where is London?</question>
+<option>England</option>
+<option>China</option>
+<option>Denmark</option>
+</task>
+
+
+<task>
+<question>Where is Rome?</question>
+<option>Italy</option>
+<option>Brazil</option>
+<option>Canada</option>
+</task>
+
+</All>

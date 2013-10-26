@@ -1,0 +1,207 @@
+/* Tablets em formato paisagem e monitores maiores */
+
+@media screen and (min-width: 601px) {
+
+	@font-face {
+		font-family: "Maria_lucia";
+		src: url("Fonts/Maria_lucia.ttf");
+	}
+
+	h1 {
+		color: white;
+		font-family: Maria_lucia, Cursive;
+		font-size: 1.5em;
+		font-weight: normal;
+	}
+
+	body {
+		background-color: #330033;
+	}
+
+	#menu {
+		background: #FF7256;
+		width: 24%;
+		height: 49%;
+		float: left;
+	}
+
+	#menu1 {
+		background: #2E8B57;
+		width: 24%;
+		height: 49%;
+		float: right;
+	}
+
+	#menu2 {
+		background: #FF7F00;
+		width: 24%;
+		height: 49%;
+		float: left;
+		margin-top: 1%;
+	}
+
+	#menu3 {
+		background: #A52A2A;
+		width: 24%;
+		height: 49%;
+		float: right;
+		margin-top: 1%;
+	}
+
+	#contents {
+		width: 50%;
+		background: #483D8B;
+		height: 100%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	img {
+		width: 50%;
+		margin-top: 15%;
+	}
+
+}
+
+/* Tablets em formato retrato */
+
+@media screen and (max-width: 600px) {
+
+	@font-face {
+		font-family: "Maria_lucia";
+		src: url("Fonts/Maria_lucia.ttf");
+	}
+
+	h1 {
+		color: white;
+		font-family: Maria_lucia, Cursive;
+		font-size: 1.5em;
+		font-weight: normal;
+	}
+
+	body {
+
+		background-color: #330033;
+	}
+
+	#menu {
+		background: #FF7256;
+		width: 49%;
+		height: 24%;
+		float: left;
+		margin-bottom: 2%;
+	}
+
+	#menu1 {
+		background: #2E8B57;
+		width: 49%;
+		height: 24%;
+		float: right;
+	}
+
+	#menu2 {
+		background: #FF7F00;
+		width: 49%;
+		height: 24%;
+		float: right;
+		margin-top: 2%;
+	}
+
+	#menu3 {
+		background: #A52A2A;
+		width: 49%;
+		height: 24%;
+		float: left;
+		margin-bottom: 2%;
+	}
+
+	#contents {
+		width: 100%;
+		background: #483D8B;
+		height: 50%;
+		margin-bottom: 2%;
+	}
+
+	img {
+		width: 45%;
+		margin-top: 10%;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+}
+
+/* Smartphones em formato retrato e paisagem */
+
+@media screen and (max-width: 320px) {
+
+	@font-face {
+		font-family: "Maria_lucia";
+		src: url("Fonts/Maria_lucia.ttf");
+	}
+
+	h1 {
+		color: white;
+		font-family: Maria_lucia, Cursive;
+		font-size: 1.5em;
+		font-weight: normal;
+	}
+
+	body {
+		background-color: #330033;
+	}
+
+	#menu {
+		background: #FF7256;
+		width: 100%;
+		height: 120px;
+		float: left;
+		margin-bottom: 2%;
+	}
+
+	#menu1 {
+		background: #2E8B57;
+		width: 100%;
+		height: 120px;
+		float: right;
+	}
+
+	#menu2 {
+		background: #FF7F00;
+		width: 100%;
+		height: 120px;
+		float: right;
+		margin-top: 2%;
+	}
+
+	#menu3 {
+		background: #A52A2A;
+		width: 100%;
+		height: 120px;
+		float: left;
+		margin-top: 2%;
+		margin-bottom: 5%;
+	}
+
+	#contents {
+		width: 100%;
+		background: #483D8B;
+		height: 200px;
+		margin-bottom: 2%;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	img {
+		width: 20%;
+		margin-top: 6%;
+	}
+}
